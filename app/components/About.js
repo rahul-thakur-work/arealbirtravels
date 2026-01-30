@@ -2,11 +2,11 @@ import { aboutContent, stats } from '../data/homeData';
 
 export default function About() {
   return (
-    <section id="about" className="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <section id="about" className="py-20 bg-gradient-to-b from-gray-50 to-white" aria-labelledby="about-heading">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 id="about-heading" className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             {aboutContent.title}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">

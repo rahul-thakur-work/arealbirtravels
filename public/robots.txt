@@ -1,0 +1,42 @@
+# Robots.txt for Aerial Bir Travel
+# Updated: January 2026
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Crawl-delay to be respectful (optional)
+Crawl-delay: 1
+
+# Disallow specific paths (if any)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/static/
+
+# Sitemap location
+Sitemap: https://aerialbirtravel.com/sitemap.xml
+
+# Additional sitemaps (if you create them later)
+Sitemap: https://aerialbirtravel.com/services-sitemap.xml
+Sitemap: https://aerialbirtravel.com/destinations-sitemap.xml
+
+# Allow indexing of images
+User-agent: Googlebot-Image
+Allow: /assets/
+Allow: /public/
+
+# Instructions for Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Instructions for Bingbot
+User-agent: Bingbot
+Allow: /
+
+# Block bad bots (optional - common spam bots)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+

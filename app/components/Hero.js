@@ -4,10 +4,12 @@ import { heroData } from '../data/homeData';
 
 export default function Hero() {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden" aria-labelledby="hero-title">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        role="img"
+        aria-label="Breathtaking view of Bir Billing paragliding site in the Himalayas"
         style={{
           backgroundImage: `url(${heroData.backgroundImage})`,
         }}
@@ -18,7 +20,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
         <div className="space-y-8 animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+          <h1 id="hero-title" className="text-5xl md:text-7xl font-bold leading-tight">
             {heroData.title}
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-200">
@@ -43,7 +45,7 @@ export default function Hero() {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10 animate-bounce">
-        <a href="#about" className="text-white">
+        <a href="#about" className="text-white" aria-label="Scroll down to learn more about us">
           <svg
             className="w-6 h-6"
             fill="none"
@@ -52,6 +54,7 @@ export default function Hero() {
             strokeWidth="2"
             viewBox="0 0 24 24"
             stroke="currentColor"
+            aria-hidden="true"
           >
             <path d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
