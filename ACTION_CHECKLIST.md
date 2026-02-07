@@ -16,7 +16,7 @@ Print this page and check off items as you complete them!
   - [ ] Add business: "Aerial Bir Travel"
   - [ ] Category: Travel Agency
   - [ ] Add address: Bir Billing, Kangra, HP 176077
-  - [ ] Add phone: +91-98765-43210
+  - [ ] Add phone: +91-78071 89316
   - [ ] Add website URL
   - [ ] Submit (verification postcard will arrive in 5-7 days)
 

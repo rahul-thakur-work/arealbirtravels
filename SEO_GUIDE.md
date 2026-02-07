@@ -59,9 +59,9 @@
    - Mark your service area: Kangra District, Himachal Pradesh
 
 5. **Contact Details**:
-   - Phone: +91-98765-43210
+   - Phone: +91-78071 89316
    - Website: https://aerialbirtravel.com
-   - Email: info@aerialbirtravel.com
+   - Email: chanderaerialbirtravel@gmail.com
 
 6. **Business Hours**:
    - Monday-Friday: 9:00 AM - 7:00 PM
@@ -394,11 +394,11 @@ Aerial Bir Travel
 ### Add These to Your Website (Next):
 1. **Click-to-Call Button**: 
    ```html
-   <a href="tel:+919876543210">📞 Call Now for Best Prices!</a>
+   <a href="tel:+9178071 89316">📞 Call Now for Best Prices!</a>
    ```
 2. **WhatsApp Button**:
    ```html
-   <a href="https://wa.me/919876543210?text=Hi, I want to book a paragliding tour">
+   <a href="https://wa.me/9178071 89316?text=Hi, I want to book a paragliding tour">
      💬 WhatsApp Us
    </a>
    ```

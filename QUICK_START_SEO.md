@@ -11,7 +11,7 @@
 3. Enter business name: **Aerial Bir Travel**
 4. Choose category: **Travel Agency**
 5. Add location: **Bir Billing, District Kangra, HP 176077**
-6. Add phone: **+91-98765-43210**
+6. Add phone: **+91-78071 89316**
 7. Add website: **Your actual website URL**
 8. Verify later (postcard will arrive in 5-7 days)
 
@@ -159,7 +159,7 @@ Use your phone! Quality matters more than quantity, but aim for 10+ photos today
 1. **WhatsApp Chat Button** (Paste in your Contact section):
 ```html
 <a 
-  href="https://wa.me/919876543210?text=Hi, I'm interested in booking a tour with Aerial Bir Travel"
+  href="https://wa.me/9178071 89316?text=Hi, I'm interested in booking a tour with Aerial Bir Travel"
   className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 z-50"
   target="_blank"
   rel="noopener noreferrer"
@@ -174,10 +174,10 @@ Use your phone! Quality matters more than quantity, but aim for 10+ photos today
 2. **Phone Call Button** (Mobile users love this):
 ```html
 <a 
-  href="tel:+919876543210"
+  href="tel:+9178071 89316"
   className="bg-blue-600 text-white px-6 py-3 rounded-lg font-bold text-lg hover:bg-blue-700 transition-all shadow-lg inline-flex items-center"
 >
-  📞 Call Now: +91-98765-43210
+  📞 Call Now: +91-78071 89316
 </a>
 ```
 

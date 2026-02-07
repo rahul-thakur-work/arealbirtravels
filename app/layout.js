@@ -14,35 +14,68 @@ const geistMono = Geist_Mono({
 export const metadata = {
   metadataBase: new URL('https://aerialbirtravel.com'),
   title: {
-    default: "Aerial Bir Travel - Best Paragliding & Adventure Tours in Bir Billing, Himachal Pradesh",
-    template: "%s | Aerial Bir Travel"
+    default: "Bir Billing Paragliding & Tour Packages | Dharamshala Manali Tours | Aerial Bir Travel",
+    template: "%s | Aerial Bir Travel - Best Himachal Tour Packages"
   },
-  description: "⭐ #1 Travel Agency in Bir Billing! Book paragliding, trekking, camping & hotel packages. 10,000+ happy travelers. Expert guides. Best prices. Call +91-98765-43210",
+  description: "⭐ #1 Rated Travel Agency! Bir Billing Paragliding (₹2,500+), Dharamshala Tours, Manali Packages, Spiti Valley Trips. 10,000+ Happy Travelers. Book Now! Expert Guides | Best Prices | Free Consultation",
   keywords: [
-    // Primary Keywords
+    // Primary Bir Billing Keywords
     "Bir Billing paragliding",
-    "Bir Billing travel agency",
-    "paragliding in Himachal Pradesh",
-    "adventure tours Bir Billing",
+    "paragliding in Bir Billing online booking",
     "Bir Billing tour packages",
-    // Location-based Keywords
+    "best travel agency Bir Billing",
+    "Bir Billing paragliding cost 2026",
+    "Bir paragliding booking",
     "things to do in Bir Billing",
-    "Bir Billing hotels booking",
-    "Barot camping packages",
-    "Himachal Pradesh adventure travel",
-    "Kangra valley tours",
-    // Service Keywords
-    "paragliding booking Bir",
-    "riverside camping Barot",
-    "Hanuman Garh trek",
-    "monastery tours Bir",
-    "adventure activities Himachal",
-    // Long-tail Keywords
-    "best time to visit Bir Billing",
-    "Bir Billing paragliding cost",
-    "affordable hotels in Bir",
-    "Barot sightseeing tour packages",
-    "trekking packages Himachal Pradesh"
+    "Bir Billing hotels",
+    "Bir Billing adventure activities",
+    
+    // Dharamshala Keywords
+    "Dharamshala tour packages",
+    "Dharamshala McLeod Ganj tours",
+    "Triund trek booking",
+    "Dharamshala sightseeing packages",
+    "Dharamshala travel agency",
+    "best time to visit Dharamshala",
+    "Dharamshala Triund trek package",
+    "McLeod Ganj hotels booking",
+    
+    // Manali Keywords
+    "Manali tour packages",
+    "Kullu Manali honeymoon packages",
+    "Manali trekking packages",
+    "Rohtang Pass tour",
+    "Solang Valley activities",
+    "Manali adventure tours",
+    "Shimla Manali package tour",
+    "Manali hotels booking",
+    
+    // Spiti & Lahaul Keywords
+    "Spiti Valley tour packages",
+    "Lahaul Spiti bike trip",
+    "Chandratal Lake camping",
+    "Kinnaur Spiti tour",
+    
+    // Himachal General Keywords
+    "Himachal Pradesh tour packages",
+    "Himachal adventure tours",
+    "Himachal trekking packages 2026",
+    "best travel agency Himachal Pradesh",
+    
+    // Long-tail Conversional Keywords
+    "affordable paragliding packages Bir Billing",
+    "best paragliding company near me",
+    "Bir Billing paragliding with video",
+    "family tour packages Himachal",
+    "honeymoon packages Manali budget",
+    "group tour packages Dharamshala Manali",
+    "riverside camping Barot valley",
+    "monastery tour Bir Billing",
+    
+    // Seasonal Keywords
+    "summer tour packages Himachal 2026",
+    "winter activities Manali",
+    "monsoon trekking Himachal"
   ],
   authors: [{ name: "Aerial Bir Travel" }],
   creator: "Aerial Bir Travel",
@@ -114,8 +147,8 @@ export default function RootLayout({ children }) {
         },
         "image": "https://aerialbirtravel.com/assets/logo.png",
         "description": "Premier travel agency in Bir Billing offering paragliding, adventure tours, trekking, camping, and complete travel packages in Himachal Pradesh.",
-        "telephone": "+91-98765-43210",
-        "email": "info@aerialbirtravel.com",
+        "telephone": "+91-78071 89316",
+        "email": "chanderaerialbirtravel@gmail.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Bir Billing",
@@ -147,10 +180,11 @@ export default function RootLayout({ children }) {
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.9",
-          "reviewCount": "850",
+          "reviewCount": "1200",
           "bestRating": "5",
           "worstRating": "1"
         },
+        "hasMap": "https://maps.google.com/?q=Bir+Billing+Himachal+Pradesh",
         "foundingDate": "2015",
         "slogan": "Soar Above the Clouds, Explore the Himalayas",
         "areaServed": {
@@ -176,7 +210,7 @@ export default function RootLayout({ children }) {
         "image": "https://aerialbirtravel.com/assets/logo.png",
         "@id": "https://aerialbirtravel.com",
         "url": "https://aerialbirtravel.com",
-        "telephone": "+91-98765-43210",
+        "telephone": "+91-78071 89316",
         "priceRange": "₹₹",
         "address": {
           "@type": "PostalAddress",
@@ -293,8 +327,74 @@ export default function RootLayout({ children }) {
               "@type": "Answer",
               "text": "Besides paragliding, Bir Billing offers trekking (Hanuman Garh, Dynasar), monastery tours, riverside camping in Barot, mountain biking, nature walks, and visits to local Tibetan settlements and tea gardens."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I book a tour package for Dharamshala and Manali?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can book Dharamshala and Manali tour packages directly through Aerial Bir Travel by calling +91-78071 89316 or using our online contact form. We offer customized packages including transportation, accommodation, sightseeing, and adventure activities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is included in Spiti Valley tour packages?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Our Spiti Valley tour packages include transportation, accommodation, meals, sightseeing of Key Monastery, Chandratal Lake, Kibber Village, Tabo Monastery, local permits, and experienced guides. Tours typically range from 6-10 days."
+            }
           }
         ]
+      },
+      {
+        "@type": "Product",
+        "name": "Bir Billing Paragliding Package",
+        "description": "Professional paragliding experience in Bir Billing with certified pilots, safety equipment, and video recording",
+        "brand": {
+          "@type": "Brand",
+          "name": "Aerial Bir Travel"
+        },
+        "offers": {
+          "@type": "AggregateOffer",
+          "lowPrice": "2500",
+          "highPrice": "3500",
+          "priceCurrency": "INR",
+          "availability": "https://schema.org/InStock",
+          "url": "https://aerialbirtravel.com/#services"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "450"
+        }
+      },
+      {
+        "@type": "TouristTrip",
+        "name": "Complete Himachal Tour Package",
+        "description": "Comprehensive tour covering Bir Billing, Dharamshala, Manali, and Spiti Valley with all activities included",
+        "itinerary": {
+          "@type": "ItemList",
+          "itemListElement": [
+            {
+              "@type": "TouristDestination",
+              "name": "Bir Billing",
+              "description": "Paragliding capital of India"
+            },
+            {
+              "@type": "TouristDestination", 
+              "name": "Dharamshala",
+              "description": "Home of Dalai Lama and McLeod Ganj"
+            },
+            {
+              "@type": "TouristDestination",
+              "name": "Manali",
+              "description": "Adventure and honeymoon destination"
+            }
+          ]
+        },
+        "provider": {
+          "@id": "https://aerialbirtravel.com/#organization"
+        }
       }
     ]
   };
